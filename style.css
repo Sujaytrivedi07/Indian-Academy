@@ -1,0 +1,167 @@
+h1{
+    color:red;
+}
+#myfirstid{
+    color:blue;
+}
+.indian{
+    color:orange;
+}
+.backImg{
+width:100%;
+height:100vh;
+/*background-color: greenyellow;*/
+background-image:url('army.jpg')
+
+
+}
+
+.backImg1{
+    width:100%;
+    height:100vh;
+    /*background-color: greenyellow;*/
+    background-image:url('bollywood.jpg')
+    
+    }
+#fontCss{
+    font-family: 'Tangerine', serif;
+        font-size: 48px;
+        font-size:italic;
+        font-weight:bolder;
+}
+*{
+    margin:0;
+    padding:0;
+}
+#textcss{
+    font-family:'noto Serif KR' ,sans-serif;
+    color:red;
+    letter-spacing:1px;
+    word-spacing:2px;
+    direction:ltr;
+    text-indent:50px;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color:green;
+}
+a:hover{
+    color:orange;
+
+}
+a:active{
+    color:blue:
+}
+
+/*boder css*/
+.bordercss{
+  width:500px;
+  height:300px;
+  background-color: skyblue; 
+  border-width: 5px;
+  border-color: black;
+  border-style: solid; /*dotted,dashed,*/
+  border-radius: 10px 20px 30px 40px; 
+}
+
+.boxmodel{
+    width:400px;
+    height:200px;
+    background-color: gray;
+
+}
+
+
+input{
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-right: 2px;
+    margin-top: 20px;
+}
+
+p{
+    width:400px;
+    height:200px;
+    border:1px solid green;
+    overflow:scroll;
+
+}
+
+.father{
+    width:600px;
+    height:300px;
+    background-color: gold;
+    position:relative;
+}
+
+.child1{
+    width:100px;
+    height:60px;
+    background-color: aqua;
+    position:absolute;
+    left:0;
+}
+.child2{
+    width:100px;
+    height:60px;
+    background-color: greenyellow;
+    position:right;
+    position:absolute;
+    right:0;
+}
+
+.child3{
+    width:100px;
+    height:60px;
+    background-color: yellow;
+    position:right;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.child4{
+    width:100px;
+    height:60px;
+    background-color:gray;
+    position:right;
+    position:absolute;
+    bottom:0;
+}
+
+.header{
+    width:100%;
+    height:80px;
+    background-color: black;
+}
+.logo{
+    width:30%;
+    height:80px;
+    background-color: orange;
+    text-align: center;
+    float:left;
+}
+.menu{
+    width:70%;
+    line-height: 80px;
+    background-color: pink;
+    float:right;
+}
+ul{
+    list-style: none;
+    text-align:right;
+}
+li{
+    display:inline-block;
+    
+    padding:0 50px;
+
+}
+
+
+
